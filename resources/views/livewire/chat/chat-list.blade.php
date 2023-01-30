@@ -45,7 +45,7 @@
         @endforeach
 
         @else
-        <p>you have no conversations</p>
+        <hr><br><h2>Lets Start the conversations</h2>
         @endif
     </div>
 

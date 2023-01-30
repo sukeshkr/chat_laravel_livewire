@@ -52,6 +52,7 @@ class Chatbox extends Component
 
     public function broadCastedMessageReceived($event)
     {
+        $this->dispatchBrowserEvent('notificationSound');
 
         $this->emitTo('chat.chat-list','refresh');
 
@@ -84,7 +85,7 @@ class Chatbox extends Component
 
         $this->dispatchBrowserEvent('rowChatToBottom');
 
-        $this->dispatchBrowserEvent('notificationSound');
+
 
     }
 

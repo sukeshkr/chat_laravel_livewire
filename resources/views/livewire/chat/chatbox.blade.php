@@ -77,7 +77,11 @@
             });
         </script>
         @else
-        <div class="fs-4 text-center text-primary mt-5">No Conversations Selected</div>
+        <div class="fs-4 text-center text-primary mt-5">
+            <h1>Chating With Me</h1>
+            <p>Send and recieve message online</p>
+            <img width="20%" src="{{asset('bg/bg.png')}}"/>
+        </div>
         @endif
 
 <script>
